@@ -25,5 +25,11 @@ namespace Task
 
             Form1.BackColor = Color.Green;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            this.BackColor = Color.Red;
+        }
     }
 }
