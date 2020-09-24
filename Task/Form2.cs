@@ -23,9 +23,9 @@ namespace Task
             this.Hide();
             Form1.Show();
 
-            Form1.BackColor = Color.Green;
+            Form1.BackColor = Color.Blue;
         }
-
+        //Что то там
         private void button2_Click(object sender, EventArgs e)
         {
             
