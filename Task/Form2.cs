@@ -16,5 +16,14 @@ namespace Task
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 Form1 = new Form1();
+            this.Hide();
+            Form1.Show();
+
+            Form1.BackColor = Color.Green;
+        }
     }
 }
